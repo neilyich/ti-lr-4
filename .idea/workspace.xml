@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37f9bdab-e35a-44f4-8e47-bbf925389945" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Player.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/WinGenerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/Formatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreePrinter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/LayerFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/Separators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/WinFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/CenterFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/FixedHeightFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/FixedWidthFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/HCenterFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/Spacer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/VCenterFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/DefinedGameTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTreeNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/RandomGameTree.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OSmmqaymPy2ejAj7F9mmQjJa0y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20230416_0003"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ilya\IdeaProjects\ti-lr-4\src\main\kotlin\neilyich\tree" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="neilyich.tree" />
+      <recent name="neilyich" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="neilyich.printers.align" />
+      <recent name="neilyich.printers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lr4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neilyich.Lr4Kt" />
+      <module name="ti-lr-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Lr4Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37f9bdab-e35a-44f4-8e47-bbf925389945" name="Changes" comment="" />
+      <created>1681562521204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681562521204</updated>
+      <workItem from="1681562523210" duration="34248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

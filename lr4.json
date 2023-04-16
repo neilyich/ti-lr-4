@@ -1,0 +1,16 @@
+{
+  "randomGameTree": {
+    "seed": 42,
+    "players": [
+      {
+        "strategiesCount": 2
+      },
+      {
+        "strategiesCount": 4
+      }
+    ],
+    "depth": 7,
+    "minWin": 0,
+    "maxWin": 9
+  }
+}
