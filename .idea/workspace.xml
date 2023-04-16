@@ -4,36 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f9bdab-e35a-44f4-8e47-bbf925389945" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lr4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4Task.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/WinGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/Formatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreePrinter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/LayerFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/Separators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/WinFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/CenterFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/FixedHeightFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/FixedWidthFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/HCenterFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/Spacer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/align/VCenterFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/DefinedGameTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTreeNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/RandomGameTree.kt" afterDir="false" />
+    <list default="true" id="37f9bdab-e35a-44f4-8e47-bbf925389945" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/lr4.json" beforeDir="false" afterPath="$PROJECT_DIR$/lr4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/LayerFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/LayerFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +81,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681562521204</updated>
-      <workItem from="1681562523210" duration="34248000" />
+      <workItem from="1681562523210" duration="34652000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1681606785855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681606785855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

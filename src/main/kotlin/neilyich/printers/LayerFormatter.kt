@@ -10,7 +10,7 @@ class LayerFormatter(
     private val nodeFormatter: NodeFormatter,
 ) : FixedWidthFormatter<List<GameTreeNode>>, FixedHeightFormatter<List<GameTreeNode>> {
 
-    override val height = nodeFormatter.height.also { println("HEIGHT: $it") }
+    override val height = nodeFormatter.height
 
     var nodesCoordinates: List<Int>
         private set
@@ -21,20 +21,16 @@ class LayerFormatter(
 
     override fun format(input: List<GameTreeNode>): List<String> {
         val totalNodesWidth = input.size * nodeFormatter.width
-        println("${input.size} totalNodeWidth: $totalNodesWidth")
         val spacesCount = input.size
         val totalSpace = width - totalNodesWidth
         val spaceWidth = totalSpace / spacesCount
         val formattedNodes = input.map { nodeFormatter.format(it) }
-        println("${input.size} nodeWidth: ${formattedNodes[0][0].length}")
         val result = ArrayList<String>(height)
         val spaceStartWidth = (spaceWidth + 1) / 2
         val spaceStart = Spacer(height, spaceStartWidth).format(Any())
         val spaceEnd = Spacer(height, spaceWidth - spaceStartWidth).format(Any())
-        println("${input.size} spaceWidth: ${spaceStart[0].length}")
         calcNodesCoordinates(spaceStartWidth, spaceWidth, input)
         val spaceRemaining = totalSpace % spacesCount
-        println("${input.size} spaceRemaining: $spaceRemaining")
         val indexToAddSpace = totalSpace / (spaceRemaining + 1)
         for (r in 0 until height) {
             val space = Spacer(height, spaceWidth).format(Any())

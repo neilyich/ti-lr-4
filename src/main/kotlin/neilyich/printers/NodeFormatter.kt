@@ -64,7 +64,6 @@ class NodeFormatter(
         }
         result.add(formatHorizontalSeparator(wins.size + 1, wins.size + 1, true, node.children.filterNotNull().isNotEmpty()))
         if (node.isOnOptimalPath) {
-            println("On optimal path")
             return result.map { SET_RED_COLOR + it + RESET }
         }
         return result
