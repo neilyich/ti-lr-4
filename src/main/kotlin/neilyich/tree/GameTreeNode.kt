@@ -29,10 +29,6 @@ class GameTreeNode(
         return maxWins.flatMap { it.second }
     }
 
-    private fun filterOptimalWins(wins: Wins, maxWin: Int): Wins {
-        return wins.filter { it[player.id] == maxWin }
-    }
-
     private fun compareWins(l: Wins, r: Wins): Int {
         val lWins = l.map { it[player.id] }
         val rWins = r.map { it[player.id] }
@@ -45,6 +41,10 @@ class GameTreeNode(
         }
         else if (lMax < rMin) {
             return -1
+        } else if (lMin == rMin) {
+            return lMax.compareTo(rMax)
+        } else if (lMax == rMax) {
+            return lMin.compareTo(rMin)
         }
         return 0
     }

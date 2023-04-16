@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f9bdab-e35a-44f4-8e47-bbf925389945" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/lr4.json" beforeDir="false" afterPath="$PROJECT_DIR$/lr4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/LayerFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/LayerFormatter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" afterDir="false" />
+    <list default="true" id="37f9bdab-e35a-44f4-8e47-bbf925389945" name="Changes" comment="remove logs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTreeNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20230416_0003"
+    "com.google.cloudcode.ide_session_index": "20230416_0006"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,7 +78,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681562521204</updated>
-      <workItem from="1681562523210" duration="34652000" />
+      <workItem from="1681562523210" duration="34791000" />
+      <workItem from="1681636106242" duration="3240000" />
+      <workItem from="1681668353482" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1681606785855</created>
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681606785855</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove logs">
+      <created>1681607066665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681607066665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="remove logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove logs" />
   </component>
 </project>
