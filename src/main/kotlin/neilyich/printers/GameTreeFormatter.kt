@@ -13,6 +13,9 @@ class GameTreeFormatter(
     numberWidth: Int,
     private val gameTree: GameTree,
 ) {
+
+    private val colorsMap = Colors.colorsForIds(gameTree.solutions().map { it.id })
+
     fun format(): List<String> {
         val result = mutableListOf<String>()
         for (depth in layerFormatters.indices) {
@@ -65,11 +68,12 @@ class GameTreeFormatter(
         nodeFormatter = NodeFormatter(
             maxWinsSize = maxWinsSize(depth),
             winFormatter = winFormatter,
+            colors = colorsMap,
         ),
     )
 
     private fun layerWidth(depth: Int): Int {
-        val nodeWidth = NodeFormatter(maxWinsSize(depth), winFormatter).width
+        val nodeWidth = NodeFormatter(maxWinsSize(depth), winFormatter, emptyMap()).width
 
         val lastLayerNodesCount = layerNodesCount(depth)
         return lastLayerNodesCount * nodeWidth

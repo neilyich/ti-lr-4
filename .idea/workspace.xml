@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f9bdab-e35a-44f4-8e47-bbf925389945" name="Changes" comment="remove logs">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/Colors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/RouteWinsComparator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/RouteWinsComparatorImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lr4.json" beforeDir="false" afterPath="$PROJECT_DIR$/lr4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/Lr4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/WinGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/WinGenerator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/GameTreeFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/NodeFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/WinFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/printers/WinFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/DefinedGameTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/DefinedGameTree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/GameTreeNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/RandomGameTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/neilyich/tree/RandomGameTree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +29,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,15 +55,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20230416_0006"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ilya\IdeaProjects\ti-lr-4\src\main\kotlin\neilyich\tree" />
@@ -56,7 +73,14 @@
       <recent name="neilyich.printers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Lr4Kt (1)">
+    <configuration name="Lr4Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neilyich.Lr4Kt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lr4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neilyich.Lr4Kt" />
       <module name="ti-lr-4" />
@@ -64,8 +88,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lr4Kt (1)" />
         <item itemvalue="Kotlin.Lr4Kt" />
       </list>
     </recent_temporary>
@@ -81,6 +117,8 @@
       <workItem from="1681562523210" duration="34791000" />
       <workItem from="1681636106242" duration="3240000" />
       <workItem from="1681668353482" duration="799000" />
+      <workItem from="1681725815993" duration="1772000" />
+      <workItem from="1681734640486" duration="15205000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1681606785855</created>
@@ -112,6 +150,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

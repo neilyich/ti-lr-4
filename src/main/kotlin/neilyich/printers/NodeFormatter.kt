@@ -15,16 +15,17 @@ import neilyich.printers.align.FixedWidthFormatter
 import neilyich.printers.align.HCenterFormatter
 import neilyich.printers.align.VCenterFormatter
 import neilyich.tree.GameTreeNode
-import neilyich.tree.Win
-import neilyich.tree.Wins
+import neilyich.tree.RouteWin
+import neilyich.tree.RouteWins
 
 class NodeFormatter(
     maxWinsSize: Int,
     private val winFormatter: WinFormatter,
+    private val colors: Map<Int, String>
 ): FixedWidthFormatter<GameTreeNode>, FixedHeightFormatter<GameTreeNode> {
 
     companion object {
-        private const val SET_RED_COLOR = "\u001B[31m"
+        private const val SET_RED_COLOR = "\u001B[0m"
         private const val SET_BOLD = "\u001B[1m"
         private const val RESET = "\u001B[0m"
     }
@@ -99,9 +100,14 @@ class NodeFormatter(
         }
     }
 
-    private fun formatWinCell(win: Win): List<String> {
+    private fun formatWinCell(win: RouteWin): List<String> {
         val formattedWin = winFormatter.format(win)
-        return formattedWin.map { SEP_VER + it + SEP_VER }
+        return formattedWin.map { SEP_VER + formatWin(win) + it + RESET + SEP_VER }
+    }
+
+    private fun formatWin(win: RouteWin): String {
+        return colors[win.id]?.let { "\u001B[38;2;${it}m" } ?: RESET
+        //return "\u001B[38;2;${colors[win.id] ?: "255;255;255"}m"
     }
 
     private fun formatPlayerIdCell(node: GameTreeNode): List<String> {
@@ -114,7 +120,7 @@ class NodeFormatter(
         return formattedId.map { SEP_VER + SET_BOLD + it + reset + SEP_VER }
     }
 
-    private fun calcHeight(wins: Wins): Int {
+    private fun calcHeight(wins: RouteWins): Int {
         return wins.size * 2 + 1
     }
 }

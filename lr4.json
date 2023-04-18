@@ -10,7 +10,7 @@
       }
     ],
     "depth": 6,
-    "minWin": 0,
-    "maxWin": 9
+    "minWin": -5,
+    "maxWin": 5
   }
 }

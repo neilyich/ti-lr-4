@@ -7,8 +7,12 @@ class RandomGameTree(
     override val players: List<Player>,
     override val depth: Int,
     private val winGenerator: WinGenerator,
+    private val routeWinsComparator: RouteWinsComparator,
 ) : GameTree {
     override val head: GameTreeNode
+
+
+    private var currentId: Int
 
     init {
         if (depth <= 0) {
@@ -17,6 +21,7 @@ class RandomGameTree(
         if (players.size <= 1) {
             throw IllegalArgumentException("game must have at least 2 players")
         }
+        currentId = 0
         head = generateRandomSubTree(players[0], 0)
     }
 
@@ -25,12 +30,17 @@ class RandomGameTree(
             return GameTreeNode(
                 player = player,
                 children = emptyList(),
-                wins = listOf(winGenerator.randomForPlayers(players))
+                routeWinsComparator = routeWinsComparator,
+                wins = listOf(RouteWin(winGenerator.randomForPlayers(players), currentId++))
             )
         }
         val nextPlayer = nextPlayer(player)
         val children = player.strategies().map { generateRandomSubTree(nextPlayer, currentDepth + 1) }
-        return GameTreeNode(player, children)
+        return GameTreeNode(
+            player = player,
+            children = children,
+            routeWinsComparator = routeWinsComparator
+        )
     }
 
     private fun nextPlayer(player: Player): Player {

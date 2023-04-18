@@ -6,7 +6,7 @@ interface GameTree {
     val players: List<Player>
     val head: GameTreeNode
     val depth: Int
-    fun solutions(): Wins = head.subTreeWins()
+    fun solutions(): RouteWins = head.subTreeWins()
     fun player(depth: Int): Player = players[depth % players.size]
     fun markOptimalPaths() {
         markOptimalPaths(head)
